@@ -1,0 +1,35 @@
+$maincolor: #0e9799;
+$secondcolor: #fcd661;
+@import url("https://fonts.googleapis.com/css?family=Amarante&display=swap");
+
+* {
+  font-family: "Amarante", cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 18px;
+}
+
+.text {
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+@import "./iconInput";
+@import "./loginPage";
+@import "./registerPage";
+@import "./category";
+@import "./posts";
+@import "./profile";
+@import "./header";
+@import "./notifications";
+@import "./postDetails";

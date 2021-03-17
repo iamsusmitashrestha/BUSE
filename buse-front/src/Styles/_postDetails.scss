@@ -1,0 +1,71 @@
+.back-post-grid {
+  display: grid;
+  grid-template-columns: 3rem auto;
+  .back-arrow {
+    width: 1.75rem;
+  }
+
+  .post-image {
+    width: 100%;
+  }
+}
+.postDetails {
+  padding-top: 10rem;
+}
+
+.newComment {
+  position: relative;
+  button {
+    border: 0;
+    border-radius: 0.25rem;
+    background-color: $maincolor;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    margin-bottom: 3rem;
+
+    color: white;
+  }
+}
+
+.Details {
+  position: relative;
+
+  padding: 2rem;
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid #939393;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  div {
+    margin-bottom: 1rem;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  h4 {
+    padding: 1rem 2rem;
+
+    background-color: $maincolor;
+    color: white;
+    position: absolute;
+    left: -1rem;
+    top: -1rem;
+    margin: 0;
+    transform: skewY(-3deg);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+}
+
+.information {
+  margin-top: 2rem;
+}
+
+.comments {
+  padding: 1rem;
+  padding-top: 0;
+  border-radius: 0.5rem;
+  border: 1px solid #939393;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}

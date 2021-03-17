@@ -1,0 +1,19 @@
+.iconinput {
+  display: grid;
+  grid-template-columns: 2rem auto;
+  width: 70%;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  input {
+    border: 0;
+    width: 100%;
+  }
+
+  img {
+    width: 1.5rem;
+  }
+}
